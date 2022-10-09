@@ -7,10 +7,361 @@
     box-sizing: border-box;
 }
 
+.header-first-img img {
+    width: 112px;
+    height: 66px;
+    margin-left: 10%;
+    margin-top: 21px;
+}
+
+.calendar-part-1 {
+    line-height: 115%;
+}
+
+.calendar-part-1 img {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+}
+
+.calendar-part-1 span {
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.header-calendar {
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 97px;
+}
+
+.calendar-part-2 img {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+}
+
+.calendar-part-2 span {
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.calendar-part-3 img {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+}
+
+.calendar-part-3 span {
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.header-main-title {
+    width: 628px;
+    height: 190px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    margin-left: 10%;
+    margin-top: 126px;
+}
+
+.header-main-content p {
+    width: 414px;
+    height: 62px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin-left: 10%;
+    margin-top: 16px;
+}
+
+.header-images img:first-child {
+    width: 304px;
+    height: 356px;
+    position: absolute;
+    top: 300px;
+    right: 326px;
+    z-index: 1;
+}
+
+.header-poem {
+    width: 483.63px;
+    height: 200.02px;
+    background-color: #1E4681;
+    border-radius: 1.5%;
+    margin-left: 35%;
+    margin-top: 177px;
+    position: relative;
+}
+
+.header-poem p {
+    width: 430.59px;
+    height: 113px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding-top: 29px;
+    margin-left: 27px;
+}
+
+.header-poem span {
+    display: inline-block;
+    width: 280.5px;
+    height: 45.64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 130%;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -5px;
+    right: -65px;
+}
+
+.header-intro-title {
+    width: 365px;
+    height: 93px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-left: 10%;
+    margin-top: 157px;
+}
+
+.header-intro-text {
+    width: 662px;
+    height: 374px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+    margin-left: 10%;
+    margin-top: 18px;
+}
+
+.intro-img-big {
+    width: 314px;
+    height: 315px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    z-index: 1;
+}
+
+.header-intro {
+    position: relative;
+}
+
 @media (min-width: 992px) and (max-width: 1279px) {
-    
+    .header-first-img img {
+        width: 64.87px;
+        height: 38.23px;
+    }
+    .calendar-part-1 img {
+        width: 12.74px;
+        height: 12.16px;
+    }
+    .calendar-part-1 span {
+        width: 75.29px;
+        height: 18.53px;
+        font-size: 12px;
+    }
+    .calendar-part-2 img {
+        width: 12.74px;
+        height: 12.16px;
+    }
+    .calendar-part-2 span {
+        width: 75.29px;
+        height: 18.53px;
+        font-size: 12px;
+    }
+    .header-calendar {
+        width: 32%;
+        margin-top: 57px;
+    }
+    .calendar-part-3 img {
+        width: 12.74px;
+        height: 12.16px;
+    }
+    .calendar-part-3 span {
+        width: 75.29px;
+        height: 18.53px;
+        font-size: 12px;
+    }
+    .header-main-title {
+        width: 363.72px;
+        height: 110.04px;
+        font-size: 80px;
+        font-size: 46px;
+        line-height: 101.38%;
+        margin-top: 8px;
+    }
+    .header-main-content p {
+        width: 264px;
+        height: 36px;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .header-images img:first-child {
+        width: 176.07px;
+        height: 206.18px;
+        top: 150px;
+    }
+    .header-images img:nth-child(2) {
+        width: 158.69px;
+        height: 23.75px;
+        top: 340px;
+    }
+    .header-poem {
+        width: 280.11px;
+        height: 115.83px;
+    }
+    .header-poem p {
+        width: 249.38px;
+        height: 65.45px;
+        font-size: 14px;
+    }
+    .header-poem span {
+        width: 162.46px;
+        height: 26.43px;
+        font-size: 12px;
+        right: -50px;
+    }
+    .header-intro-title {
+        width: 211.4px;
+        height: 53.86px;
+        font-size: 32px;
+        margin-top: 100px;
+    }
+    .header-intro-text {
+        width: 383.41px;
+        height: 216.61px;
+        font-size: 14px;
+        margin-top: 10px;
+    }    
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
-    
+    .header-first-img img {
+        width: 54.19px;
+        height: 32.75px;
+    }
+    .calendar-part-1 img {
+        width: 10.25px;
+        height: 9.79px;
+    }
+    .calendar-part-1 span {
+        width: 60.58px;
+        height: 14.91px;
+        font-size: 10px;
+    }
+    .calendar-part-2 img {
+        width: 10.25px;
+        height: 10.25px;
+    }
+    .calendar-part-2 span {
+        width: 60.58px;
+        height: 14.91px;
+        font-size: 10px;
+    }
+    .header-calendar {
+        width: 50%;
+        margin-top: 47px;
+    }
+    .calendar-part-3 img {
+        width: 9.32px;
+        height: 10.25px;
+    }
+    .calendar-part-3 span {
+        width: 60.58px;
+        height: 14.91px;
+        font-size: 10px;
+    }
+    .header-main-title {
+        width: 292.63px;
+        height: 88.53px;
+        font-size: 37px;
+        margin-top: 8px;
+    }
+    .header-main-content p {
+        width: 212.4px;
+        height: 28.96px;
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .header-images img:first-child {
+        width: 141.68px;
+        height: 175.1px;
+        top: 300px;
+        left: 150px;
+    }
+    .header-poem {
+        width: 280.11px;
+        height: 115.83px;
+        margin-left: 10%;
+        margin-top: 230px;
+    }
+    .header-poem p {
+        width: 249.38px;
+        height: 65.45px;
+        font-size: 14px;
+    }
+    .header-poem span {
+        width: 162.46px;
+        height: 26.43px;
+        font-size: 12px;
+        right: -50px;
+    }
+    .header-intro-title {
+        width: 170.08px;
+        height: 43.34px;
+        font-size: 26px;
+        margin-top: 80px;
+    }
+    .header-intro-text {
+        width: 308.47px;
+        height: 174.27px;
+        font-size: 12px;
+        margin-top: 10px;
+    }    
 }
